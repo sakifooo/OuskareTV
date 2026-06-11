@@ -6,11 +6,10 @@ export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
 
   const matches = [
-    { teamA: "وادي دجلة", teamB: " زد", scoreA: 0, scoreB: 0, time: "15:00 ", status: "live", channel: "أون سبورت ماكس ", commentator: "غير معروف", league: "كأس الرابطة المصرية", href: "/live/dejla-vs-zid" },
-    { teamA: "نهضة بركان", teamB: "اتحاد طنجة", scoreA: 0, scoreB: 0, time: "21:00", status: "upcoming", channel: "الرياضية المغربية", commentator: "غير معروف", league: "المغرب، الدوري المغربي", href: "/live/berkane-vs-tanger" },
-    { teamA: "هولندا", teamB: "أوزبكستان", scoreA: 0, scoreB: 0, time: "21:45", status: "upcoming", channel: "beIN Sports 3 HD", commentator: "جواد بدة", league: "دولي، مباريات ودية دولية", href: "/live/netherlands-vs-uzbekistan" },
-    { teamA: "فرنسا", teamB: "إيرلندا الشمالية", scoreA: 0, scoreB: 0, time: "22:10", status: "upcoming", channel: "beIN SPORTS HD 1", commentator: "حفيظ دراجي", league: "دولي، مباريات ودية دولية", href: "/live/france-vs-ireland" },
-    { teamA: "كولومبيا", teamB: "الأردن", scoreA: 0, scoreB: 0, time: "0 - 0", status: "finished", channel: "الأردن الرياضية", commentator: "خالد الحدي", league: "دولي، مباريات ودية دولية", href: "/live/colombia-vs-jordan" },
+    { teamA: "المكسيك", teamB: "وجنوب أفريقيا", scoreA: 0, scoreB: 0, time: "20:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم – المجموعة أ", href: "/live/mexic-vs-southafrica" },
+    { teamA: "بوليفيا", teamB: "الجزائر", scoreA: 0, scoreB: 4, time: "21:45", status: "finished", channel: "الجزائرية الرياضية", commentator: "غير معروف", league: "دولي، مباريات ودية دولية", href: "/live/algeria-vs-bolevia" },
+    { teamA: "كوستاريكا", teamB: "إنجلترا ", scoreA: 0, scoreB: 2, time: "15:00 ", status: "finished", channel: "beIN SPORTS HD 1", commentator: "غير معروف", league: "دولية ودية", href: "/live/costarica-vs-england" },
+    { teamA: "النمسا", teamB: "غواتيمالا", scoreA: 0, scoreB: 0, time: "22:10", status: "finished", channel: "beIN SPORTS HD 4", commentator: "غير معروف", league: "دولي، مباريات ودية دولية", href: "/live/france-vs-ireland" },
   ];
 
   const seoKeywords = [
