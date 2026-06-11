@@ -1,3 +1,4 @@
+
 import { MatchCard } from "@/components/match-card";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -6,20 +7,21 @@ export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
 
   const matches = [
-    { teamA: "المكسيك", teamB: "وجنوب أفريقيا", scoreA: 0, scoreB: 0, time: "20:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم – المجموعة أ", href: "/live/mexic-vs-southafrica" },
-    { teamA: "بوليفيا", teamB: "الجزائر", scoreA: 0, scoreB: 4, time: "21:45", status: "finished", channel: "الجزائرية الرياضية", commentator: "غير معروف", league: "دولي، مباريات ودية دولية", href: "/live/algeria-vs-bolevia" },
-    { teamA: "كوستاريكا", teamB: "إنجلترا ", scoreA: 0, scoreB: 2, time: "15:00 ", status: "finished", channel: "beIN SPORTS HD 1", commentator: "غير معروف", league: "دولية ودية", href: "/live/costarica-vs-england" },
-    { teamA: "النمسا", teamB: "غواتيمالا", scoreA: 0, scoreB: 0, time: "22:10", status: "finished", channel: "beIN SPORTS HD 4", commentator: "غير معروف", league: "دولي، مباريات ودية دولية", href: "/live/austria-vs-gwatimala" },
+    { teamA: "وادي دجلة", teamB: " زد", scoreA: 0, scoreB: 0, time: "15:00 ", status: "live", channel: "أون سبورت ماكس ", commentator: "غير معروف", league: "كأس الرابطة المصرية", href: "/live/dejla-vs-zid" },
+    { teamA: "نهضة بركان", teamB: "اتحاد طنجة", scoreA: 0, scoreB: 0, time: "21:00", status: "upcoming", channel: "الرياضية المغربية", commentator: "غير معروف", league: "المغرب، الدوري المغربي", href: "/live/berkane-vs-tanger" },
+    { teamA: "هولندا", teamB: "أوزبكستان", scoreA: 0, scoreB: 0, time: "21:45", status: "upcoming", channel: "beIN Sports 3 HD", commentator: "جواد بدة", league: "دولي، مباريات ودية دولية", href: "/live/netherlands-vs-uzbekistan" },
+    { teamA: "فرنسا", teamB: "إيرلندا الشمالية", scoreA: 0, scoreB: 0, time: "22:10", status: "upcoming", channel: "beIN SPORTS HD 1", commentator: "حفيظ دراجي", league: "دولي، مباريات ودية دولية", href: "/live/france-vs-ireland" },
+    { teamA: "كولومبيا", teamB: "الأردن", scoreA: 0, scoreB: 0, time: "0 - 0", status: "finished", channel: "الأردن الرياضية", commentator: "خالد الحدي", league: "دولي، مباريات ودية دولية", href: "/live/colombia-vs-jordan" },
   ];
 
   const seoKeywords = [
-    "Ouskare TV", "ouskare live", "مباريات اليوم بث مباشر", "بث مباشر كرة قدم",
+   "kora","koora","kooora", "kora live", "yalla live", "مباريات اليوم بث مباشر", "بث مباشر كرة قدم",
     "يلا شوت", "yalla shoot", "كورة اون لاين", "نتائج المباريات", 
     "الدوري الانجليزي", "الدوري الاسباني", "الدوري السعودي", "دوري ابطال اوروبا", 
     "live stream football", "بث مباشر بدون تقطيع", "أهم مباريات اليوم",
     "مشاهدة الدوري المصري", "بث مباشر ليفربول", "بث مباشر ريال مدريد", "بث مباشر برشلونة",
-    "اهداف المباريات", "ملخصات الدوري", "بث مباشر الاسطورة", "Ouskare TV live",
-    "ouskare matches", "بث مباشر النصر", "بث مباشر الهلال", "دوري روشن",
+    "اهداف المباريات", "ملخصات الدوري", "بث مباشر الاسطورة", "yalla shot",
+    "koora live", "بث مباشر النصر", "بث مباشر الهلال", "دوري روشن",
     "بث مباشر مباريات اليوم جوال", "كورة لايف", "كورة ستار", "بي ان سبورت بث مباشر",
     "مشاهدة مباريات اليوم", "بث مباشر مانشستر سيتي", "بث مباشر ارسنال", "بث مباشر تشيلسي",
     "بث مباشر بايرن ميونخ", "بث مباشر باريس سان جيرمان", "بث مباشر يوفنتوس", "بث مباشر انتر ميلان",
@@ -38,7 +40,7 @@ export default function Home() {
             <div className="mb-4">
               <Image 
                 src={logo.imageUrl} 
-                alt="Ouskare TV Logo" 
+                alt="Tinghir TV Logo" 
                 width={150} 
                 height={150} 
                 className="mx-auto drop-shadow-md"
@@ -49,7 +51,7 @@ export default function Home() {
           <div className="flex items-center justify-center gap-3">
             <span className="text-2xl md:text-4xl">⚽</span>
             <h1 className="text-3xl md:text-5xl font-black font-headline text-[#a11d1d] tracking-tighter uppercase italic">
-              Ouskare TV
+              Tinghir TV
             </h1>
             <span className="text-2xl md:text-4xl">⚽</span>
           </div>
@@ -76,15 +78,15 @@ export default function Home() {
 
           {/* Bottom Banner */}
           <div className="mt-6 bg-[#2c3e50] text-white p-4 rounded-xl text-center font-black text-sm md:text-lg border-b-4 border-gray-500 shadow-md">
-            Ouskare TV live matchs بث مباشر
+            Tinghir TV live matchs بث مباشر
           </div>
         </div>
 
         {/* Strong Hidden SEO Section */}
         <div className="sr-only" aria-hidden="true">
-          <h2>Ouskare TV بث مباشر مباريات اليوم</h2>
+          <h2>Tinghir TV بث مباشر مباريات اليوم</h2>
           <p>
-            تابع أهم مباريات اليوم عبر Ouskare TV، الموقع الأقوى لمتابعة البث المباشر للمباريات العالمية والمحلية بدون تقطيع وبجودات متعددة.
+            تابع أهم مباريات اليوم عبر Tinghir TV، الموقع الأقوى لمتابعة البث المباشر للمباريات العالمية والمحلية بدون تقطيع وبجودات متعددة.
           </p>
           <div className="flex flex-wrap">
             {seoKeywords.map((word, i) => (
@@ -96,7 +98,7 @@ export default function Home() {
 
       <footer className="bg-white border-t border-gray-200 py-6 mt-auto">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center text-gray-400 text-[12px] font-bold">
-          <span>جميع الحقوق محفوظة © Ouskare TV</span>
+          <span>جميع الحقوق محفوظة © Tinghir TV</span>
         </div>
       </footer>
     </div>
