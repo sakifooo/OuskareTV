@@ -3,9 +3,9 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: '⚽ Ouskare TV - بث مباشر ونتائج حية',
-  description: 'Ouskare TV live matchs بث مباشر مباريات اليوم اون لاين بدون تقطيع، نتائج المباريات، الدوري الإنجليزي، الدوري الإسباني، الدوري السعودي، دوري أبطال أوروبا.',
-  keywords: 'Ouskare TV, ouskare, بث مباشر, مباريات اليوم, نتائج المباريات, الدوري الانجليزي, الدوري الاسباني, الدوري السعودي, دوري ابطال اوروبا, live stream football',
+  title: '⚽ Tinghir TV - بث مباشر ونتائج حية',
+  description: 'Tinghir TV live matchs بث مباشر مباريات اليوم اون لاين بدون تقطيع، نتائج المباريات، الدوري الإنجليزي، الدوري الإسباني، الدوري السعودي، دوري أبطال أوروبا.',
+  keywords: 'Tinghir TV, tinghir, بث مباشر, مباريات اليوم, نتائج المباريات, الدوري الانجليزي, الدوري الاسباني, الدوري السعودي, دوري ابطال اوروبا, live stream football',
   icons: {
     icon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>',
   },
