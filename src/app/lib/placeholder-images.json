@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "ouskare-logo",
+      "description": "Ouskare TV Logo",
+      "imageUrl": "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmEyYWE0NmNiNTE4ODE5MWIwNDVkMGU1ZjIwZTZjMjM6ZmlsZV8wMDAwMDAwMDBiYWM3MWY0OWU5YjUwN2E0YjRhNGNiOCIsInRzIjoiMjA2MTUiLCJwIjoicHlpIiwiY2lkIjoiMSIsInNpZyI6IjkwYWI2MWNlMmNlN2ZlNTg3N2FmMGNhMWYxZTUyNjk4OWI3NzI2ZmE5Yjg2MDlmNzcwYjQyNDZmNzM3YzMyMDAiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsLCJjcyI6bnVsbCwiY2RuIjpudWxsLCJmbiI6bnVsbCwiY2QiOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=",
+      "imageHint": "sports logo shield"
+    },
+    {
+      "id": "match-hero",
+      "description": "Football stadium at night",
+      "imageUrl": "https://picsum.photos/seed/football-stadium/1200/600",
+      "imageHint": "football stadium"
+    }
+  ]
+}

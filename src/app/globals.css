@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 94%; /* #f0f0f2 */
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 0 70% 37%; /* Dark Red #a11d1d */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 0 0% 90%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 0 70% 37%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-[#f0f0f2] text-foreground font-body;
+  }
+}
+
+.font-headline {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.koora-red {
+  background-color: #a11d1d;
+}
+
+.match-row-shadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.status-badge {
+  @apply bg-[#333] text-white px-3 py-1 rounded-full text-[11px] font-bold;
+}
+
+.status-badge-finished {
+  @apply bg-gray-600 text-white px-3 py-1 rounded-full text-[11px] font-bold;
+}
