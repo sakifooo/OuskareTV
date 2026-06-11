@@ -12,11 +12,11 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط كما هو دون تغيير
   const iframeMapping: Record<string, string> = {
-    "dejla-vs-zid": "https://spoort.yala--shoot.online/albaplayer/on-time1/?serv=5",
-    "berkane-vs-tanger": "https://example.com/player/berkane-vs-tanger",
-    "netherlands-vs-uzbekistan": "https://example.com/player/netherlands-vs-uzbekistan",
-    "france-vs-ireland": "https://example.com/player/france-vs-ireland",
-    "colombia-vs-jordan": "https://example.com/player/colombia-vs-jordan",
+    "mexic-vs-southafrica": "https://spoort.yala--shoot.online/albaplayer/sport1/?serv=1",
+    "algeria-vs-bolevia": "https://spoort.yala--shoot.online/albaplayer/sport2/?serv=1",
+    "costarica-vs-england": "https://spoort.yala--shoot.online/albaplayer/sport3/?serv=1",
+    "austria-vs-gwatimala": "https://spoort.yala--shoot.online/albaplayer/sport4/?serv=1",
+
   };
 
   const iframeSrc = iframeMapping[slug] || "https://example.com/placeholder-player";
