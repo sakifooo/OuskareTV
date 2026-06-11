@@ -12,7 +12,7 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-    "mexic-vs-southafrica": "https://spoort.yala--shoot.online/albaplayer/alwan-1/?serv=0",
+    "mexic-vs-southafrica": "https://spoort.yala--shoot.online/albaplayer/alwan-1/?serv=1",
     "algeria-vs-bolevia": "https://spoort.yala--shoot.online/albaplayer/sport2/?serv=1",
     "austria-vs-gwatimala": "https://spoort.yala--shoot.online/albaplayer/sport4/?serv=1",
   };
