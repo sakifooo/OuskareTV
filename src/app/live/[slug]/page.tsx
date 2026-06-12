@@ -12,7 +12,7 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "korea-vs-chek": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
+   "usa-vs-paraguay": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
     "canada-vs-bosnia": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
     
   };
