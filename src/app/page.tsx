@@ -6,7 +6,7 @@ export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
 
   const matches = [
-    { teamA: "قطر", teamB: "سويسرا", scoreA: 0, scoreB: 0, time: "20:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/qatar-vs-swiss" },
+    { teamA: "قطر", teamB: "سويسرا", scoreA: 0, scoreB: 0, time: "20:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/qatar-vs-swiss" },
     { teamA: "المغرب", teamB: "البرازيل", scoreA: 0, scoreB: 0, time: "23:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: " جواد بادة", league: "كأس العالم", href: "/live/maroc-vs-brazil" },
     { teamA: "الولايات المتحدة ", teamB: "البراغواي ", scoreA: 4, scoreB: 1, time: "2:00 ", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/usa-vs-paraguay" },
 
