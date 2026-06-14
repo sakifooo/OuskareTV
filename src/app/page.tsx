@@ -6,9 +6,9 @@ export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
 
   const matches = [
-    { teamA: "المغرب", teamB: "البرازيل", scoreA: 1, scoreB: 0, time: "23:00", status: "live", channel: "beIN SPORTS MAX 2", commentator: " جواد بادة", league: "كأس العالم", href: "/live/maroc-vs-brazil" },
-    { teamA: "قطر", teamB: "سويسرا", scoreA: 1, scoreB: 1, time: "20:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/qatar-vs-swiss" },
-    { teamA: "الولايات المتحدة ", teamB: "البراغواي ", scoreA: 4, scoreB: 1, time: "2:00 ", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/usa-vs-paraguay" },
+    { teamA: "سكتلندا", teamB: "هايتي", scoreA: 0, scoreB: 0, time: "02:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: " غير معروف", league: "كأس العالم", href: "/live/scotland-vs-haiti" },
+    { teamA: "استراليا", teamB: "تركيا", scoreA: 0, scoreB: 0, time: "05:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/turc-vs-australia" },
+    { teamA: "المغرب ", teamB: "البرازيل ", scoreA: 1, scoreB: 1, time: "2:00 ", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/maroc-vs-brazil" },
 
 
   ];
