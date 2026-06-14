@@ -6,8 +6,10 @@ export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
 
   const matches = [
-    { teamA: "سكتلندا", teamB: "هايتي", scoreA: 0, scoreB: 0, time: "02:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: " غير معروف", league: "كأس العالم", href: "/live/scotland-vs-haiti" },
-    { teamA: "استراليا", teamB: "تركيا", scoreA: 0, scoreB: 0, time: "05:00", status: "live", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/turc-vs-australia" },
+    { teamA: "المانيا ", teamB: "كوراساو ", scoreA: 0, scoreB: 0, time: "18:00 ", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/germany-vs-corasaw" },
+    { teamA: "هولندا", teamB: "اليابان", scoreA: 0, scoreB: 0, time: "05:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/holand-vs-japan" },
+    { teamA: "سكتلندا", teamB: "هايتي", scoreA: 1, scoreB: 0, time: "02:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: " غير معروف", league: "كأس العالم", href: "/live/scotland-vs-haiti" },
+    { teamA: "استراليا", teamB: "تركيا", scoreA: 2, scoreB: 0, time: "05:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/turc-vs-australia" },
     { teamA: "المغرب ", teamB: "البرازيل ", scoreA: 1, scoreB: 1, time: "2:00 ", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/maroc-vs-brazil" },
 
 
