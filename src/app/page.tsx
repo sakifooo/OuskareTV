@@ -1,3 +1,7 @@
+"use client";
+import { useState, useEffect } from "react";
+import Script from "next/script";
+
 import { MatchCard } from "@/components/match-card";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -12,8 +16,8 @@ export default function Home() {
     { teamA: "سكتلندا", teamB: "هايتي", scoreA: 1, scoreB: 0, time: "02:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: " غير معروف", league: "كأس العالم", href: "/live/scotland-vs-haiti" },
     { teamA: "المغرب ", teamB: "البرازيل ", scoreA: 1, scoreB: 1, time: "2:00 ", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/maroc-vs-brazil" },
 
-
   ];
+  
   const seoKeywords = [
     "Ouskare TV", "ouskare live", "مباريات اليوم بث مباشر", "بث مباشر كرة قدم",
     "يلا شوت", "yalla shoot", "كورة اون لاين", "نتائج المباريات", 
@@ -31,8 +35,41 @@ export default function Home() {
     "بث مباشر الدوري القطري", "بث مباشر دوري نجوم قطر", "بث مباشر ابطال اسيا"
   ];
 
+  const [showBanner, setShowBanner] = useState(true);
+
+useEffect(() => {
+  const timer = setTimeout(() => {
+    setShowBanner(false);
+  }, 7000);
+
+  return () => clearTimeout(timer);
+}, []);
+
   return (
     <div className="min-h-screen flex flex-col font-body bg-[#f0f0f2]">
+
+      {showBanner && (
+  <div className="fixed bottom-4 left-4 z-[9999]">
+    <button
+      onClick={() => setShowBanner(false)}
+      className="absolute -top-2 -right-2 z-[10000] w-6 h-6 rounded-full bg-black text-white text-xs"
+    >
+      ✕
+    </button>
+
+    <iframe
+      src="//cdn.bannersnack.com/banners/btu5bfqqm/embed/index.html?userId=3124438&t=1781439640"
+      width="250"
+      height="250"
+      scrolling="no"
+      frameBorder="0"
+      allowTransparency={true}
+      allow="autoplay"
+      allowFullScreen
+      className="w-[250px] h-[250px] md:w-[250px] md:h-[250px]"
+    />
+  </div>
+)}
       {/* Centered Brand Header with Logo */}
       <header className="bg-white border-b border-gray-200 py-8 md:py-12">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center">
