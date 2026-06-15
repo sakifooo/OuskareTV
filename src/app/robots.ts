@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'ouskaretv.vercel.app/sitemap.xml',
+    sitemap: 'https://ouskaretv.vercel.app/sitemap.xml',
   }
 }
