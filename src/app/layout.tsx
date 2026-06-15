@@ -17,7 +17,16 @@ export const metadata: Metadata = {
   ], // ← هادي كانت ناقصة
 
   metadataBase: new URL('https://ouskaretv.vercel.app'),
-
+ verification: {
+    google: 'VzK0Ce6V01Jr_8MvkE_i_rwtYftEtrnNdtl5KY1cIdQ',
+  },
+   robots: {
+  index: true,
+  follow: true,
+},
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'Tinghir TV',
     description: 'تابع مباريات اليوم بث مباشر.',
@@ -25,8 +34,15 @@ export const metadata: Metadata = {
     siteName: 'Tinghir TV',
     locale: 'ar_MA',
     type: 'website',
+  images: [
+    {
+      url: '/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Koora Live',
+    },
+  ],
   },
-
   twitter: {
     card: 'summary_large_image',
     title: 'Tinghir TV',
