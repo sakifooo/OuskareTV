@@ -38,14 +38,7 @@ export const metadata: Metadata = {
     siteName: 'Tinghir TV',
     locale: 'ar_MA',
     type: 'website',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Tinghir TV',
-      },
-    ],
+    
   },
 
   twitter: {
