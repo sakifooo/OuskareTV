@@ -1,11 +1,38 @@
-
-import type {Metadata} from 'next';
-import './globals.css';
-
 export const metadata: Metadata = {
   title: '⚽ Tinghir TV - بث مباشر ونتائج حية',
-  description: 'Tinghir TV live matchs بث مباشر مباريات اليوم اون لاين بدون تقطيع، نتائج المباريات، الدوري الإنجليزي، الدوري الإسباني، الدوري السعودي، دوري أبطال أوروبا.',
-  keywords: 'Tinghir TV, tinghir, بث مباشر, مباريات اليوم, نتائج المباريات, الدوري الانجليزي, الدوري الاسباني, الدوري السعودي, دوري ابطال اوروبا, live stream football',
+
+  description:
+    'تابع عبر Tinghir TV بث مباشر لأهم مباريات اليوم، نتائج المباريات، مواعيد اللقاءات وأخبار الدوريات العالمية مثل الدوري الإسباني والإيطالي والسعودي ودوري أبطال أوروبا.',
+
+  keywords: [
+    'Tinghir TV',
+    'بث مباشر',
+    'مباريات اليوم',
+    'نتائج المباريات',
+    'الدوري الإسباني',
+    'الدوري الإيطالي',
+    'الدوري السعودي',
+    'دوري أبطال أوروبا',
+    'live football',
+  ], // ← هادي كانت ناقصة
+
+  metadataBase: new URL('https://ouskaretv.vercel.app'),
+
+  openGraph: {
+    title: 'Tinghir TV',
+    description: 'تابع مباريات اليوم بث مباشر.',
+    url: 'https://ouskaretv.vercel.app',
+    siteName: 'Tinghir TV',
+    locale: 'ar_MA',
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tinghir TV',
+    description: 'تابع مباريات اليوم بث مباشر.',
+  },
+
   icons: {
     icon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>',
   },
