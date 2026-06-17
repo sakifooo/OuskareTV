@@ -1,6 +1,5 @@
 
 import Script from "next/script";
-
 import { MatchCard } from "@/components/match-card";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -37,28 +36,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col font-body bg-[#f0f0f2]">
 
-      {showBanner && (
-  <div className="fixed bottom-4 left-4 z-[9999]">
-    <button
-      onClick={() => setShowBanner(false)}
-      className="absolute -top-2 -right-2 z-[10000] w-6 h-6 rounded-full bg-black text-white text-xs"
-    >
-      ✕
-    </button>
-
-    <iframe
-      src="//cdn.bannersnack.com/banners/btu5bfqqm/embed/index.html?userId=3124438&t=1781439640"
-      width="250"
-      height="250"
-      scrolling="no"
-      frameBorder="0"
-      allowTransparency={true}
-      allow="autoplay"
-      allowFullScreen
-      className="w-[250px] h-[250px] md:w-[250px] md:h-[250px]"
-    />
-  </div>
-)}
+      
       {/* Centered Brand Header with Logo */}
       <header className="bg-white border-b border-gray-200 py-8 md:py-12">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center">
