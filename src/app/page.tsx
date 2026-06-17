@@ -1,5 +1,4 @@
-"use client";
-import { useState, useEffect } from "react";
+
 import Script from "next/script";
 
 import { MatchCard } from "@/components/match-card";
@@ -34,15 +33,6 @@ export default function Home() {
     "بث مباشر الدوري القطري", "بث مباشر دوري نجوم قطر", "بث مباشر ابطال اسيا"
   ];
 
-  const [showBanner, setShowBanner] = useState(true);
-
-useEffect(() => {
-  const timer = setTimeout(() => {
-    setShowBanner(false);
-  }, 7000);
-
-  return () => clearTimeout(timer);
-}, []);
 
   return (
     <div className="min-h-screen flex flex-col font-body bg-[#f0f0f2]">
