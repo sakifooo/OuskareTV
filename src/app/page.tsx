@@ -1,4 +1,4 @@
-
+"use client"
 import Script from "next/script";
 import { MatchCard } from "@/components/match-card";
 import Image from "next/image";
@@ -6,20 +6,17 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
-
   const matches = [
     { teamA: "كندا", teamB: "قطر", scoreA: 0, scoreB: 0, time: "23:00", status: "live", channel: "beIN SPORTS HD1", commentator: "غير معروف", league: "كأس العالم", href: "/live/qatar-vs-canada" },
     { teamA: "المكسيك", teamB: "كوريا الجنوبية", scoreA: 0, scoreB: 0, time: "02:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/mexico-vs-korea" },
     { teamA: "سويسرا", teamB: "البوسنة", scoreA: 4, scoreB: 1, time: "20:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/swis-vs-bosnia" },
     { teamA: "تشيكيا", teamB: "جنوب افريقيا", scoreA: 1, scoreB: 1, time: "17:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/check-vs-southafrica" },
-
-
   ];
-  
+ 
   const seoKeywords = [
     "Ouskare TV", "ouskare live", "مباريات اليوم بث مباشر", "بث مباشر كرة قدم",
-    "يلا شوت", "yalla shoot", "كورة اون لاين", "نتائج المباريات", 
-    "الدوري الانجليزي", "الدوري الاسباني", "الدوري السعودي", "دوري ابطال اوروبا", 
+    "يلا شوت", "yalla shoot", "كورة اون لاين", "نتائج المباريات",
+    "الدوري الانجليزي", "الدوري الاسباني", "الدوري السعودي", "دوري ابطال اوروبا",
     "live stream football", "بث مباشر بدون تقطيع", "أهم مباريات اليوم",
     "مشاهدة الدوري المصري", "بث مباشر ليفربول", "بث مباشر ريال مدريد", "بث مباشر برشلونة",
     "اهداف المباريات", "ملخصات الدوري", "بث مباشر الاسطورة", "Ouskare TV live",
@@ -33,21 +30,25 @@ export default function Home() {
     "بث مباشر الدوري القطري", "بث مباشر دوري نجوم قطر", "بث مباشر ابطال اسيا"
   ];
 
-
   return (
     <div className="min-h-screen flex flex-col font-body bg-[#f0f0f2]">
-
       
+      {/* TV Message Banner - Ghir zidna hadchi */}
+      <div className="bg-amber-50 border-b border-amber-200 py-3 px-4 text-center text-sm text-amber-800">
+        📺 إذا كنت تستخدم التطبيق على التلفاز، المرجو تشغيل الفأرة (Souris) 
+        في الريموت للضغط على زر التشغيل
+      </div>
+
       {/* Centered Brand Header with Logo */}
       <header className="bg-white border-b border-gray-200 py-8 md:py-12">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center">
           {logo && (
             <div className="mb-4">
-              <Image 
-                src={logo.imageUrl} 
-                alt="Ouskare TV Logo" 
-                width={150} 
-                height={150} 
+              <Image
+                src={logo.imageUrl}
+                alt="Ouskare TV Logo"
+                width={150}
+                height={150}
                 className="mx-auto drop-shadow-md"
                 data-ai-hint={logo.imageHint}
               />
@@ -71,7 +72,6 @@ export default function Home() {
             بتوقيت غرينتش +1
           </span>
         </div>
-
         {/* Matches Container with Dark Red Border and Filled Background */}
         <div className="bg-[#a11d1d]/5 rounded-xl p-2 md:p-6 border-4 border-[#a11d1d] shadow-2xl">
           {/* Matches List */}
@@ -80,13 +80,11 @@ export default function Home() {
               <MatchCard key={idx} {...(match as any)} />
             ))}
           </div>
-
           {/* Bottom Banner */}
           <div className="mt-6 bg-[#2c3e50] text-white p-4 rounded-xl text-center font-black text-sm md:text-lg border-b-4 border-gray-500 shadow-md">
             Ouskare TV live matchs بث مباشر
           </div>
         </div>
-
         {/* Strong Hidden SEO Section */}
         <div className="sr-only" aria-hidden="true">
           <h2>Ouskare TV بث مباشر مباريات اليوم</h2>
@@ -100,7 +98,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
       <footer className="bg-white border-t border-gray-200 py-6 mt-auto">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center text-gray-400 text-[12px] font-bold">
           <span>جميع الحقوق محفوظة © Ouskare TV</span>
