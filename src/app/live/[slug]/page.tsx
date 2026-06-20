@@ -12,8 +12,8 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-    "holand-vs-sweden": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
-    "germany-vs-cotedivoire": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
+    "ecwador-vs-corasaw": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
+    "tunis-vs-japon": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
     "brazil-vs-haiti": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
     "turc-vs-paraguay": "https://1.kooralive360.com/albaplayer/bein-sports-hd-1/?serv=0",
 
