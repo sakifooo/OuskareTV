@@ -8,8 +8,8 @@ export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
   const matches = [
     { teamA: "إسبانيا", teamB: "السعودية  ", scoreA: 4, scoreB: 0, time: "17:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/spain-vs-saudi" },
-    { teamA: "بلجيكا", teamB: "إيران", scoreA: 0, mscoreB: 0, time: "20:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/belgique-vs-iran" },
-    { teamA: "أوروغواي", teamB: "الرأس الأخضر", scoreA: 0, scoreB: 0, time: "23:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/urugway-vs-capverdi" },
+    { teamA: "بلجيكا", teamB: "إيران", scoreA: 0, mscoreB: 0, time: "20:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/belgique-vs-iran" },
+    { teamA: "أوروغواي", teamB: "الرأس الأخضر", scoreA: 0, scoreB: 0, time: "23:00", status: "live", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/urugway-vs-capverdi" },
     { teamA: "مصر", teamB: "نيوزيلندا", scoreA: 0, mscoreB: 0, time: "02:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/egypt-vs-newzeland" },
     { teamA: "الاكوادور", teamB: "كوراساو", scoreA: 0, scoreB: 0, time: "20:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/ecwador-vs-corasaw" },
     { teamA: "تونس", teamB: "اليابان", scoreA: 0, scoreB: 4, time: "18:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/tunis-vs-japon" },
