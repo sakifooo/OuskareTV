@@ -7,8 +7,8 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
   const matches = [
-    { teamA: "الأرجنتين", teamB: "النمسا", scoreA: 0, scoreB: 0, time: "18:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/argentin-vs-austria" },
-    { teamA: "فرنسا", teamB: "العراق", scoreA: 0, mscoreB: 0, time: "22:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/france-vs-iraq" },
+    { teamA: "الأرجنتين", teamB: "النمسا", scoreA: 1, scoreB: 0, time: "18:00", status: "live", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/argentin-vs-austria" },
+    { teamA: "فرنسا", teamB: "العراق", scoreA: 0, mscoreB: 0, time: "22:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/france-vs-iraq" },
     { teamA: "النرويج", teamB: "السنغال ", scoreA: 0, scoreB: 0, time: "23:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/norway-vs-senigal" },
     { teamA: "مصر", teamB: "نيوزيلندا", scoreA: 3, scoreB: 1, time: "02:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/egypt-vs-newzeland" },
      
