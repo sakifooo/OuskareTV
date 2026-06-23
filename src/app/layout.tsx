@@ -83,6 +83,7 @@ export default function RootLayout({
 
       <body className="font-body antialiased selection:bg-accent selection:text-accent-foreground">
         {children}
+        <script src="https://pl29797886.effectivecpmnetwork.com/7c/40/9d/7c409d18d9cde138836a91ebef6b08e9.js"></script>
       </body>
     </html>
   );
