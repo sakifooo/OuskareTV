@@ -10,7 +10,7 @@ export default function Home() {
     { teamA: "البرتغال", teamB: "ازبكستان", scoreA: 0, scoreB: 0, time: "18:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/1-vs-2" },
     { teamA: "انكلترا", teamB: "غانا", scoreA: 3, scoreB: 0, time: "21:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/1-vs-2" },
     { teamA: "النرويج", teamB: "السنغال ", scoreA: 3, scoreB: 2, time: "01:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/norway-vs-senigal" },
-    { teamA: "الجزائر", teamB: "الاردن", scoreA: 0, scoreB: 0, time: "02:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/egypt-vs-newzeland" },
+    { teamA: "الجزائر", teamB: "الاردن", scoreA: 0, scoreB: 0, time: "02:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/egypt-vs-newzeland" },
      
   ];
  
