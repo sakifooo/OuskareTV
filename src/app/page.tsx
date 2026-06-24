@@ -7,11 +7,13 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
   const matches = [
-    { teamA: "بنما", teamB: "كرواتيا", scoreA: 0, scoreB: 0, time: "00:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/panama-vs-krwatia" },
-    { teamA: "كلومبيا", teamB: "الكونغو", scoreA: 0, scoreB: 0, time: "02:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/colombia-vs-congo" },
-    { teamA: "انكلترا", teamB: "غانا", scoreA: 0, scoreB: 0, time: "21:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/england-vs-gana" },
-    { teamA: "البرتغال", teamB: "ازبكستان", scoreA: 5, scoreB: 0, time: "18:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/1-vs-2" },
-        
+    { teamA: "سويسرا", teamB: "كندا", scoreA: 0, scoreB: 0, time: "20:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/سويسرا-vs-كندا" },
+    { teamA: "البوسنة", teamB: "قطر", scoreA: 0, scoreB: 0, time: "20:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/البوسنة-vs-قطر" },
+    { teamA: "هايتي", teamB: "المغرب", scoreA: 0, scoreB: 0, time: "23:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/هايتي-vs-المغرب" },
+    { teamA: "اسكتلندا", teamB: "البرازيل", scoreA: 0, scoreB: 0, time: "23:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/اسكتلندا-vs-البرازيل" },
+    { teamA: "بنما", teamB: "كرواتيا", scoreA: 0, scoreB: 1, time: "00:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/panama-vs-krwatia" },
+    { teamA: "كلومبيا", teamB: "الكونغو", scoreA: 1, scoreB: 0, time: "02:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/colombia-vs-congo" },
+    
   ];
  
   const seoKeywords = [
