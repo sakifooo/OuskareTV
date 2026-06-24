@@ -12,7 +12,7 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "swis-vs-canda": "https://statusnode.is/nodejs/?t=1",
+   "swis-vs-canda": "https://hd.muesra.sbs/albaplayer/oooes/?serv=1",
    "bosna-vs-qatar": "https://1.360kooralive.com/albaplayer/bein-sports-hd-1/?serv=0",
    "haiti-vs-maroc": "https://live.bb6.dpdns.org/albaplayer/ch1/?serv=2",
    "scotland-vs-brazil": "https://1.360kooralive.com/albaplayer/bein-sports-hd-2/?serv=0",
