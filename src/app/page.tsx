@@ -7,13 +7,10 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
   const matches = [
-    { teamA: "سويسرا", teamB: "كندا", scoreA: 2, scoreB: 1, time: "20:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/swis-vs-canda" },
-    { teamA: "البوسنة", teamB: "قطر", scoreA: 3, scoreB: 1, time: "20:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/bosna-vs-qatar" },
-    { teamA: "هايتي", teamB: "المغرب", scoreA: 0, scoreB: 0, time: "23:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/haiti-vs-maroc" },
-    { teamA: "اسكتلندا", teamB: "البرازيل", scoreA: 0, scoreB: 0, time: "23:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/scotland-vs-brazil" },
-    { teamA: "بنما", teamB: "كرواتيا", scoreA: 0, scoreB: 1, time: "00:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/panama-vs-krwatia" },
-    { teamA: "كلومبيا", teamB: "الكونغو", scoreA: 1, scoreB: 0, time: "02:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/colombia-vs-congo" },
-    
+    { teamA: "المكسيك", teamB: "تشيكيا", scoreA: 0, scoreB: 0, time: "02:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/chek-vs-mexic" },
+    { teamA: "كوريا", teamB: "جنوب افريقيا", scoreA: 3, scoreB: 1, time: "02:00", status: "live", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/korea-vs-southafrica" },
+    { teamA: "هايتي", teamB: "المغرب", scoreA: 2, scoreB: 4, time: "23:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/haiti-vs-maroc" },
+    { teamA: "اسكتلندا", teamB: "البرازيل", scoreA: 0, scoreB: 3, time: "23:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/scotland-vs-brazil" },  
   ];
  
   const seoKeywords = [
