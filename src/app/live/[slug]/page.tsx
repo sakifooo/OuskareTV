@@ -12,12 +12,12 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "senigal-vs-iraq": "https://hd.muesra.sbs/albaplayer/oooe/?serv=0",
-   "norway-vs-france": "https://hd.muesra.sbs/albaplayer/oooes/?serv=0",
-   "orogway-vs-spain": "https://hd.muesra.sbs/albaplayer/oooes/?serv=0",
-   "capverde-vs-saudi": "https://hd.muesra.sbs/albaplayer/oooe/?serv=0",
-   "egeypt-vs-iran": "https://hd.muesra.sbs/albaplayer/oooe/?serv=0",
-   "newzland-vs-belgique": "https://hd.muesra.sbs/albaplayer/oooes/?serv=0",
+   "senigal-vs-iraq": "https://266.onlineworldcup2026.net/albaplayer/sports-1/",
+   "norway-vs-france": "https://266.onlineworldcup2026.net/albaplayer/sports-2/",
+   "orogway-vs-spain": "https://266.onlineworldcup2026.net/albaplayer/sports-2/",
+   "capverde-vs-saudi": "https://266.onlineworldcup2026.net/albaplayer/sports-1/",
+   "egeypt-vs-iran": "https://266.onlineworldcup2026.net/albaplayer/sports-1/",
+   "newzland-vs-belgique": "https://266.onlineworldcup2026.net/albaplayer/sports-2/",
 
   };
 
