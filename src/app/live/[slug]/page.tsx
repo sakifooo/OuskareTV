@@ -12,12 +12,12 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "senigal-vs-iraq": "b",
-   "norway-vs-france": "a",
-   "orogway-vs-spain": "c",
-   "capverde-vs-saudi": "f",
-   "egeypt-vs-iran": "k",
-   "newzland-vs-belgique": "s",
+   "senigal-vs-iraq": "a",
+   "norway-vs-france": "d",
+   "orogway-vs-spain": "https://p6.panda-hd.online/albaplayer/extra-2/",
+   "capverde-vs-saudi": "https://p6.panda-hd.online/albaplayer/extra-1/",
+   "egeypt-vs-iran": "https://p6.panda-hd.online/albaplayer/extra-1/",
+   "newzland-vs-belgique": "https://p6.panda-hd.online/albaplayer/extra-2/",
 
   };
 
