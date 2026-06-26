@@ -12,8 +12,8 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "senigal-vs-iraq": "a",
-   "norway-vs-france": "d",
+   "senigal-vs-iraq": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
+   "norway-vs-france": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
    "orogway-vs-spain": "https://p6.panda-hd.online/albaplayer/extra-2/",
    "capverde-vs-saudi": "https://p6.panda-hd.online/albaplayer/extra-1/",
    "egeypt-vs-iran": "https://p6.panda-hd.online/albaplayer/extra-1/",
