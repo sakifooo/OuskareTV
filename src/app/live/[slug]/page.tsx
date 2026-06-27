@@ -12,12 +12,12 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "senigal-vs-iraq": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
-   "norway-vs-france": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
-   "orogway-vs-spain": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
-   "capverde-vs-saudi": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-3/?serv=0",
-   "egeypt-vs-iran": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-3/?serv=0",
-   "newzland-vs-belgique": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
+   "panama-vs-england": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
+   "croitia-vs-ghana": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
+   "portugal-vs-colombia": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
+   "congo-vs-ozbakistan": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-3/?serv=0",
+   "alger-vs-austria": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-3/?serv=0",
+   "argentin-vs-jordon": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
 
   };
 
