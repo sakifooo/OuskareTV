@@ -7,12 +7,12 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
   const matches = [
-    { teamA: "النرويج", teamB: "فرنسا", scoreA: 1, scoreB: 4, time: "20:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/norway-vs-france" },
-    { teamA: "العراق", teamB: "السنغال", scoreA: 0, scoreB: 5, time: "20:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/senigal-vs-iraq" },
-    { teamA: "الرأس الأخضر", teamB: "السعودية", scoreA: 0, scoreB: 0, time: "01:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/capverde-vs-saudi" },
-    { teamA: "الاروغواي", teamB: "اسبانيا", scoreA: 0, scoreB: 0, time: "01:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/orogway-vs-spain" },  
-    { teamA: "مصر ", teamB: "ايران", scoreA: 0, scoreB: 0, time: "04:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/egeypt-vs-iran" },
-    { teamA: "نيوزيلاندا", teamB: "بلجيكا", scoreA: 0, scoreB: 0, time: "04:00", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/newzland-vs-belgique" },  
+    { teamA: "بنما ", teamB: "إنجلترا", scoreA: 0, scoreB: 0, time: "23:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/panama-vs-england" },
+    { teamA: "كرواتيا ", teamB: "غانا", scoreA: 0, scoreB: 0, time: "23:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/croitia-vs-ghana" },
+    { teamA: "البرتغال", teamB: "كلومبيا", scoreA: 0, scoreB: 0, time: "00:30", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/portugal-vs-colombia" },
+    { teamA: "الكونغو", teamB: "ازبكستان", scoreA: 0, scoreB: 0, time: "00:30", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/congo-vs-ozbakistan" },  
+    { teamA: "الجزائر ", teamB: "النمسا", scoreA: 0, scoreB: 0, time: "03:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/alger-vs-austria" },
+    { teamA: "الارجنتين", teamB: "الاردن", scoreA: 0, scoreB: 0, time: "03:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/argentin-vs-jordon" },  
 
   ];
  
