@@ -18,7 +18,7 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
    "congo-vs-ozbakistan": "https://kora.depoooo.com/albaplayer/bein-2/?serv=1",
    "alger-vs-austria": "https://kora.depoooo.com/albaplayer/bein-2/?serv=1",
    "argentin-vs-jordon": "https://kora.depoooo.com/albaplayer/bein-1/?serv=1",
-    "argentinaqs-vs-jordonsd": "https://p6.panda-hd.online/albaplayer/extra-1/",
+    
   };
 
   const iframeSrc = iframeMapping[slug] || "https://example.com/placeholder-player";
