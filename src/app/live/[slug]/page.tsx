@@ -12,12 +12,12 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "panama-vs-england": "https://kora.depoooo.com/albaplayer/bein-1/?serv=1",
-   "croitia-vs-ghana": "https://kora.depoooo.com/albaplayer/bein-2/?serv=1",
-   "portugal-vs-colombia": "https://kora.depoooo.com/albaplayer/bein-1/?serv=1",
-   "congo-vs-ozbakistan": "https://kora.depoooo.com/albaplayer/bein-2/?serv=1",
-   "alger-vs-austria": "https://kora.depoooo.com/albaplayer/bein-2/?serv=1",
-   "argentin-vs-jordon": "https://kora.depoooo.com/albaplayer/bein-1/?serv=1",
+   "panama-vs-england": "https://p6.panda-hd.online/albaplayer/extra-1/",
+   "croitia-vs-ghana": "https://p6.panda-hd.online/albaplayer/extra-2/",
+   "portugal-vs-colombia": "https://p6.panda-hd.online/albaplayer/extra-1/",
+   "congo-vs-ozbakistan": "https://p6.panda-hd.online/albaplayer/extra-2/",
+   "alger-vs-austria": "https://p6.panda-hd.online/albaplayer/extra-2/",
+   "argentin-vs-jordon": "https://p6.panda-hd.online/albaplayer/extra-1/",
     
   };
 
