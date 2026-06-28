@@ -7,12 +7,10 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
   const matches = [
-    { teamA: "بنما ", teamB: "إنجلترا", scoreA: 0, scoreB: 0, time: "22:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/panama-vs-england" },
-    { teamA: "كرواتيا ", teamB: "غانا", scoreA: 0, scoreB: 0, time: "22:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/croitia-vs-ghana" },
-    { teamA: "البرتغال", teamB: "كلومبيا", scoreA: 0, scoreB: 0, time: "00:30", status: "live", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/portugal-vs-colombia" },
-    { teamA: "الكونغو", teamB: "ازبكستان", scoreA: 0, scoreB: 0, time: "00:30", status: "live", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/congo-vs-ozbakistan" },  
-    { teamA: "الجزائر ", teamB: "النمسا", scoreA: 0, scoreB: 0, time: "03:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/alger-vs-austria" },
-    { teamA: "الارجنتين", teamB: "الاردن", scoreA: 0, scoreB: 0, time: "03:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/argentin-vs-jordon" },  
+   
+    { teamA: "كندا", teamB: "جنوب افريقيا", scoreA: 0, scoreB: 0, time: "20:30", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/canada-vs-southafrica" },  
+    { teamA: "الجزائر ", teamB: "النمسا", scoreA: 3, scoreB: 3, time: "03:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/alger-vs-austria" },
+    { teamA: "الارجنتين", teamB: "الاردن", scoreA: 3, scoreB: 1, time: "03:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/argentin-vs-jordon" },  
 
   ];
  
