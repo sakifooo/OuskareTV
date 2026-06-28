@@ -12,7 +12,7 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "canada-vs-southafrica": "/player.html?src=https%3A%2F%2Flive-hls-apps-aja-fa.getaj.net%2FAJA%2Findex.m3u8",
+   "canada-vs-southafrica": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-1/?serv=0",
    "croitia-vs-ghana": "https://p6.panda-hd.online/albaplayer/extra-2/",
    "portugal-vs-colombia": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-3/?serv=0",
    "congo-vs-ozbakistan": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
