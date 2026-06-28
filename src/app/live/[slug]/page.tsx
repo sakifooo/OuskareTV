@@ -14,10 +14,10 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
   const iframeMapping: Record<string, string> = {
    "canada-vs-southafrica": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-1/?serv=0",
    "croitia-vs-ghana": "https://p6.panda-hd.online/albaplayer/extra-2/",
-   "portugal-vs-colombia": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-3/?serv=0",
-   "congo-vs-ozbakistan": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-4/?serv=0",
-   "alger-vs-austria": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-2/?serv=0",
-   "argentin-vs-jordon": "https://1.yalla3arab.com/albaplayer/bein-sports-hd-1/?serv=0",
+   "portugal-vs-colombia": "a",
+   "congo-vs-ozbakistan": "b",
+   "alger-vs-austria": "c",
+   "argentin-vs-jordon": "d",
     
   };
 
