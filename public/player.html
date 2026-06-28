@@ -9,17 +9,17 @@
 
 <style>
 html,body{
-margin:0;
-width:100%;
-height:100%;
-background:#000;
-overflow:hidden;
+    margin:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    overflow:hidden;
 }
 video{
-width:100%;
-height:100%;
-object-fit:contain;
-background:#000;
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    background:#000;
 }
 </style>
 </head>
@@ -28,19 +28,37 @@ background:#000;
 <video id="video" controls autoplay playsinline></video>
 
 <script>
-const url=new URLSearchParams(location.search).get("src");
-const video=document.getElementById("video");
+const url = new URLSearchParams(location.search).get("src");
+const video = document.getElementById("video");
 
-if(Hls.isSupported()){
-const hls=new Hls();
-hls.loadSource(url);
-hls.attachMedia(video);
-hls.on(Hls.Events.MANIFEST_PARSED,function(){
-video.play();
-});
-}else if(video.canPlayType("application/vnd.apple.mpegurl")){
-video.src=url;
-video.play();
+async function startVideo() {
+    try {
+        await video.play();
+
+        if (video.requestFullscreen) {
+            await video.requestFullscreen();
+        } else if (video.webkitRequestFullscreen) {
+            video.webkitRequestFullscreen();
+        } else if (video.msRequestFullscreen) {
+            video.msRequestFullscreen();
+        }
+    } catch(e) {
+        console.log(e);
+    }
+}
+
+if (Hls.isSupported()) {
+    const hls = new Hls();
+    hls.loadSource(url);
+    hls.attachMedia(video);
+
+    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+        startVideo();
+    });
+
+} else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.src = url;
+    video.addEventListener("loadedmetadata", startVideo);
 }
 </script>
 
