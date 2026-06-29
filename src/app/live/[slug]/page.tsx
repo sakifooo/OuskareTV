@@ -26,6 +26,7 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
       {/* تم إضافة pt-12 لإزاحة المشغل للأسفل قليلاً */}
       <iframe 
         allowFullScreen={true} 
+        sandbox="allow-scripts allow-same-origin"
         frameBorder="0" 
         height="100%" 
         scrolling="1" 
