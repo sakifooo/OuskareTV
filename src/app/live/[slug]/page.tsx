@@ -12,9 +12,9 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "japon-vs-brazil": "https://28.1yallashoot.online/albaplayer/live1/?serv=1",
-   "germany-vs-paragway": "https://www.kooratlyad3.online/p/bbr.html",
-   "maroc-vs-holand": "https://28.1yallashoot.online/albaplayer/live1/?serv=1",
+   "japon-vs-brazil": "A",
+   "germany-vs-paragway": "https://k7.sansa-kora.net/albaplayer/b2/?serv=2",
+   "maroc-vs-holand": "https://k7.sansa-kora.net/albaplayer/b2/?serv=2",
 
     
   };
