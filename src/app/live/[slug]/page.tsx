@@ -12,8 +12,8 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "japon-vs-brazil": "https://p6.panda-hd.online/albaplayer/extra-1/",
-   "germany-vs-paragway": "https://p6.panda-hd.online/albaplayer/extra-2/",
+   "japon-vs-brazil": "https://ex.roooom.online/?alba-player=ysscores&serv=0",
+   "germany-vs-paragway": "https://ex.roooom.online/?alba-player=ysscores&serv=0",
    
     
   };
