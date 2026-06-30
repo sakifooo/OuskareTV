@@ -12,8 +12,8 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "japon-vs-brazil": "A",
-   "germany-vs-paragway": "https://kora.depoooo.com/albaplayer/bein-2/?serv=1",
+   "cotedivoire-vs-norway": "https://kora.depoooo.com/albaplayer/bein-1/?serv=1",
+   "france-vs-swed": "https://kora.depoooo.com/albaplayer/bein-2/?serv=1",
    "maroc-vs-holand": "https://kora.depoooo.com/albaplayer/bein-1/?serv=1",
 
     
