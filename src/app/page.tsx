@@ -7,9 +7,9 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export default function Home() {
   const logo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
   const matches = [
-    { teamA: "المكسيك", teamB: "الاكوادور ", scoreA: 0, scoreB: 0, time: "02:00", status: "live", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/mexico-vs-ecwador" }, 
-    { teamA: "فرنسا ", teamB: "السويد", scoreA: 3, scoreB: 0, time: "22:00", status: "finished", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/france-vs-swed" },
-    { teamA: "النرويج", teamB: "ساحل العاج", scoreA:2, scoreB: 1, time: "18:00", status: "finished", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/cotedivoire-vs-norway" },  
+    { teamA: "انجلترا", teamB: "الكونكو ", scoreA: 0, scoreB: 0, time: "17:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/england-vs-congo" }, 
+    { teamA: "بلجيكا ", teamB: "السنغال", scoreA: 0, scoreB: 0, time: "21:00", status: "upcoming", channel: "beIN SPORTS MAX 1", commentator: "غير معروف", league: "كأس العالم", href: "/live/belgique-vs-senegal" },
+    { teamA: "الولايات المتحدة", teamB: "البوسنة ", scoreA: 0, scoreB: 0, time: "01:00", status: "upcoming", channel: "beIN SPORTS MAX 2", commentator: "غير معروف", league: "كأس العالم", href: "/live/usa-vs-bosna" },  
 
   ];
  
