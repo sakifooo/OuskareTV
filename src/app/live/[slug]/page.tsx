@@ -14,7 +14,7 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
   const iframeMapping: Record<string, string> = {
    "spain-vs-austria": "https://max.mpnh.online/albaplayer/max1/?serv=1",
    "portugal-vs-croitia": "https://max.mpnh.online/albaplayer/max1/?serv=1",
-   "swis-vs-alger": "https://kora.depoooo.com/albaplayer/bein-1/?serv=1",
+   "swis-vs-alger": "https://max.mpnh.online/albaplayer/max1/?serv=1",
 
     
   };
