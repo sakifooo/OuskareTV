@@ -12,9 +12,9 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
 
   // الحفاظ على كائن الروابط الجديد وتحديثه
   const iframeMapping: Record<string, string> = {
-   "england-vs-congo": "https://max.mpnh.online/albaplayer/max1/?serv=1",
-   "belgique-vs-senegal": "https://max.mpnh.online/albaplayer/max1/?serv=1",
-   "usa-vs-bosna": "https://max.mpnh.online/albaplayer/max1/?serv=1",
+   "spain-vs-austria": "https://max.mpnh.online/albaplayer/max1/?serv=1",
+   "portugal-vs-croitia": "https://max.mpnh.online/albaplayer/max1/?serv=1",
+   "swis-vs-alger": "https://max.mpnh.online/albaplayer/max1/?serv=1",
 
     
   };
