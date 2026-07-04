@@ -13,7 +13,9 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
     ],
 
     "paragway-vs-france": [
-      "https://max.mpnh.online/albaplayer/max1/?serv=1",
+    "https://max.mpnh.online/albaplayer/max1/?serv=1", // Server 1
+      "https://912acsss8af382.shootny.com/playerv5.php?match=4750009&key=9f39972b67d6ce22189507d008acwc26", // Server 2
+
     ],
 
     "gana-vs-colombia": [
