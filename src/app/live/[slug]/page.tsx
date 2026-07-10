@@ -12,9 +12,9 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
       "https://max.mpnh.online/albaplayer/max1/?serv=1", // Server 2
     ],
 
-    "france-vs-maroc": [
-    "https://912acsss8af382.fabortvcdn.com/playerv5.php?match=4759376&key=9f39972b67d6ce22189507d008acwc26", // Server 1
-      "https://weeeeer.kora-live-tv.com/albaplayer/1", // Server 2
+    "spain-vs-belgique": [
+    "https://912acsss8af382.fabortvcdn.com/playerv5.php?match=4761484&key=9f39972b67d6ce22189507d008acwc26", // Server 1
+      "https://go.pkju.online/albaplayer/max1/", // Server 2
       "https://ttt.thgi.online/albaplayer/max1/", // Server 3
 
     ],
