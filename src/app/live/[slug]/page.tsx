@@ -7,13 +7,13 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
   const slug = resolvedParams.slug;
 
   const iframeMapping: Record<string, string[]> = {
-    "d-vs-c": [
-      "https://912acsss8af382.shootny.com/playerv5.php?match=4758736&key=9f39972b67d6ce22189507d008acwc26", // Server 1
-      "https://max.mpnh.online/albaplayer/max1/?serv=1", // Server 2
+    "argentina-vs-swis": [
+      "https://go.pkju.online/albaplayer/max1/", // Server 1
+      "https://912acsss8af382.fabortvcdn.com/playerv5.php?match=4760721&key=9f39972b67d6ce22189507d008acwc26", // Server 2
     ],
 
     "england-vs-norway": [
-      "https://912acsss8af382.fabortvcdn.com/playerv5.php?match=4761484&key=9f39972b67d6ce22189507d008acwc26", // Server 1
+      "https://912acsss8af382.fabortvcdn.com/playerv5.php?match=4760721&key=9f39972b67d6ce22189507d008acwc26", // Server 1
       "https://go.pkju.online/albaplayer/max1/", // Server 2
       "https://ttt.thgi.online/albaplayer/max1/", // Server 3
 
