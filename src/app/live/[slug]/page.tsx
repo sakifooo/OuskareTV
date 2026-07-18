@@ -20,7 +20,7 @@ export default function LiveMatchPage({ params }: { params: Promise<{ slug: stri
     ],
 
     "a-vs-b": [
-      "https://go.pkju.online/albaplayer/max1/",
+      "",
     ],
   };
 
