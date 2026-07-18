@@ -60,9 +60,9 @@ export default function Home() {
       <main className="container mx-auto px-2 md:px-4 py-10 md:py-16 max-w-5xl">
         
         {/* TV Message - Fo9 GMT Badge b red color bayn */}
-        <div className="mb-4 bg-red-600 text-white py-3 px-4 rounded-lg text-center text-sm md:text-base font-bold border border-red-700 shadow-md">
-          📺 إذا كنت تستخدم التطبيق على التلفاز، المرجو تشغيل الفأرة (Souris) 
-          في الريموت للضغط على زر التشغيل
+        <div className="mb-4 bg-red-600 text-white py-3 px-4 rounded-lg text-center text-sm md:text-base font-bold border border-red-700 sha
+          📺 قريبا سيتم تحديث تطبيق (TINGHIR_TV) 
+          ليشمل جميع القنوات المغربية و الرياضية و الاخبارية 
         </div>
 
         {/* GMT Time Badge */}
