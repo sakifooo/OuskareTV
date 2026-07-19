@@ -24,6 +24,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col font-body bg-[#f0f0f2]">
     
+      {/* Header */}
       <header className="bg-white border-b border-gray-200 py-8 md:py-12">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center">
           {oldLogo && (
@@ -38,10 +39,11 @@ export default function Home() {
             </h1>
             <span className="text-2xl md:text-4xl">⚽</span>
           </div>
+          <p className="mt-2 text-gray-400 font-bold text-sm md:text-base">بث مباشر ونتائج حية</p>
         </div>
       </header>
 
-      {/* Tinghir TV Section */}
+      {/* Tinghir TV Logo + Announcement */}
       <div className="mx-4 mt-6 max-w-5xl md:mx-auto">
         <div className="flex justify-center mb-5">
           <Image
@@ -54,7 +56,6 @@ export default function Home() {
           />
         </div>
 
-        {/* Announcement */}
         <div className="bg-gradient-to-r from-red-700 to-red-900 text-white py-6 px-4 text-center rounded-xl shadow-lg">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">🎉 تحديث جديد كبير !</h2>
           <p className="text-xl md:text-2xl font-semibold mb-3">Tinghir TV يعود أقوى من أي وقت مضى</p>
@@ -69,10 +70,11 @@ export default function Home() {
         </div>
       </div>
 
-      <main className="container mx-auto px-2 md:px-4 py-10 md:py-16 max-w-5xl">
-        <div className="mb-4">
-          <span className="bg-gray-200 text-gray-600 px-4 py-1.5 rounded-t-lg text-[11px] font-bold border border-b-0 border-gray-300">
-            بتوقيت غرينتش +1
+      {/* 🔥 قسم المباريات المباشرة (مباشرة فوق) */}
+      <main className="container mx-auto px-2 md:px-4 py-8 max-w-5xl">
+        <div className="mb-6">
+          <span className="bg-red-600 text-white px-5 py-2 rounded-t-lg text-sm font-bold inline-block">
+            ⚽ مباريات مباشرة الآن
           </span>
         </div>
 
