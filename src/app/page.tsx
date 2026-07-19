@@ -24,18 +24,11 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col font-body bg-[#f0f0f2]">
     
-      {/* Header */}
       <header className="bg-white border-b border-gray-200 py-8 md:py-12">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center">
           {oldLogo && (
             <div className="mb-4">
-              <Image
-                src={oldLogo.imageUrl}
-                alt="Ouskare TV Logo"
-                width={150}
-                height={150}
-                className="mx-auto drop-shadow-md"
-              />
+              <Image src={oldLogo.imageUrl} alt="Ouskare TV" width={150} height={150} className="mx-auto drop-shadow-md" />
             </div>
           )}
           <div className="flex items-center justify-center gap-3">
@@ -48,34 +41,27 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Tinghir TV Logo + Announcement */}
+      {/* Tinghir TV Section */}
       <div className="mx-4 mt-6 max-w-5xl md:mx-auto">
-        
-        {/* New Logo - Fixed Version */}
         <div className="flex justify-center mb-5">
           <Image
-            src="https://drive.usercontent.google.com/download?id=1gl-Tudf_DuJCEmLnmi8A32m3pICSwMaq"
+            src="/tinghir-tv-logo.png"
             alt="Tinghir TV Logo"
-            width={280}      // زدت الحجم
+            width={280}
             height={140}
-            className="drop-shadow-xl object-contain"   // مهمه جداً object-contain
+            className="drop-shadow-xl object-contain"
             priority
-            unoptimized={true}   // مهم لـ Google Drive
           />
         </div>
 
-        {/* Announcement Banner */}
+        {/* Announcement */}
         <div className="bg-gradient-to-r from-red-700 to-red-900 text-white py-6 px-4 text-center rounded-xl shadow-lg">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">🎉 تحديث جديد كبير !</h2>
-          <p className="text-xl md:text-2xl font-semibold mb-3">
-            Tinghir TV يعود أقوى من أي وقت مضى
-          </p>
+          <p className="text-xl md:text-2xl font-semibold mb-3">Tinghir TV يعود أقوى من أي وقت مضى</p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
             قريباً جداً: <span className="font-bold text-yellow-300">Tinghir TV</span> سيحتوي على 
-            <span className="underline">كل القنوات المغربية</span> + 
-            <span className="underline">قنوات الأخبار</span> مثل الجزيرة والعربية وميدي 1 + 
-            <span className="underline">قنوات الرياضة</span> مثل beIN Sports + 
-            جميع القنوات العربية والعالمية والمزيد...
+            كل القنوات المغربية + قنوات الأخبار (الجزيرة، العربية، ميدي 1) + 
+            قنوات الرياضة (beIN Sports) + جميع القنوات العربية والعالمية والمزيد...
           </p>
           <p className="mt-4 text-yellow-300 font-bold text-lg">
             بث مباشر بدون تقطيع • جودة عالية • مجاني
@@ -84,7 +70,6 @@ export default function Home() {
       </div>
 
       <main className="container mx-auto px-2 md:px-4 py-10 md:py-16 max-w-5xl">
-        {/* GMT + Matches ... (باقي الكود كما هو) */}
         <div className="mb-4">
           <span className="bg-gray-200 text-gray-600 px-4 py-1.5 rounded-t-lg text-[11px] font-bold border border-b-0 border-gray-300">
             بتوقيت غرينتش +1
@@ -100,10 +85,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-white border-t border-gray-200 py-6 mt-auto">
-        <div className="container mx-auto px-4 flex flex-col items-center justify-center text-gray-400 text-[12px] font-bold">
-          <span>جميع الحقوق محفوظة © Ouskare TV</span>
-        </div>
+      <footer className="bg-white border-t border-gray-200 py-6 mt-auto text-center text-gray-400 text-sm">
+        جميع الحقوق محفوظة © Ouskare TV
       </footer>
     </div>
   );
