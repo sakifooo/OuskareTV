@@ -8,8 +8,8 @@ export default function Home() {
 
   const matches = [
     { 
-      teamA: "انجلترا", 
-      teamB: "فرنسا ", 
+      teamA: "اسبانيا", 
+      teamB: "الارجنتين ", 
       scoreA: 0, 
       scoreB: 0, 
       time: "20:00", 
