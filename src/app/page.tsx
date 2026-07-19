@@ -17,7 +17,7 @@ export default function Home() {
       channel: "beIN SPORTS MAX 1", 
       commentator: "غير معروف", 
       league: " الترتيب ", 
-      href: "https://example.com/live-page-england-vs-france" 
+      href: "https://example.com/live-page-england-vs-france"   // غير بالرابط الحقيقي
     },
   ];
 
@@ -43,8 +43,25 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Tinghir TV Logo + Announcement */}
-      <div className="mx-4 mt-6 max-w-5xl md:mx-auto">
+      {/* ==================== MATCH LIVE SECTION (FO9) ==================== */}
+      <main className="container mx-auto px-2 md:px-4 pt-6 pb-8 max-w-5xl">
+        <div className="mb-6 text-center">
+          <span className="bg-red-600 text-white px-6 py-2.5 rounded-full text-lg font-bold inline-flex items-center gap-2 shadow-md">
+            ⚽ مباريات مباشرة الآن
+          </span>
+        </div>
+
+        <div className="bg-[#a11d1d]/5 rounded-2xl p-3 md:p-6 border-4 border-[#a11d1d] shadow-2xl">
+          <div className="space-y-4">
+            {matches.map((match, idx) => (
+              <MatchCard key={idx} {...(match as any)} />
+            ))}
+          </div>
+        </div>
+      </main>
+
+      {/* ==================== TINGHIR TV UPDATE MESSAGE (TA7T) ==================== */}
+      <div className="mx-4 mb-10 max-w-5xl md:mx-auto">
         <div className="flex justify-center mb-5">
           <Image
             src="/tinghir-tv-logo.png"
@@ -56,36 +73,21 @@ export default function Home() {
           />
         </div>
 
-        <div className="bg-gradient-to-r from-red-700 to-red-900 text-white py-6 px-4 text-center rounded-xl shadow-lg">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2">🎉 تحديث جديد كبير !</h2>
-          <p className="text-xl md:text-2xl font-semibold mb-3">Tinghir TV يعود أقوى من أي وقت مضى</p>
+        <div className="bg-gradient-to-r from-red-700 to-red-900 text-white py-7 px-5 text-center rounded-2xl shadow-xl">
+          <h2 className="text-2xl md:text-3xl font-bold mb-3">🎉 تحديث جديد كبير !</h2>
+          <p className="text-xl md:text-2xl font-semibold mb-4">
+            Tinghir TV يعود أقوى من أي وقت مضى
+          </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
             قريباً جداً: <span className="font-bold text-yellow-300">Tinghir TV</span> سيحتوي على 
             كل القنوات المغربية + قنوات الأخبار (الجزيرة، العربية، ميدي 1) + 
             قنوات الرياضة (beIN Sports) + جميع القنوات العربية والعالمية والمزيد...
           </p>
-          <p className="mt-4 text-yellow-300 font-bold text-lg">
+          <p className="mt-5 text-yellow-300 font-bold text-lg">
             بث مباشر بدون تقطيع • جودة عالية • مجاني
           </p>
         </div>
       </div>
-
-      {/* 🔥 قسم المباريات المباشرة (مباشرة فوق) */}
-      <main className="container mx-auto px-2 md:px-4 py-8 max-w-5xl">
-        <div className="mb-6">
-          <span className="bg-red-600 text-white px-5 py-2 rounded-t-lg text-sm font-bold inline-block">
-            ⚽ مباريات مباشرة الآن
-          </span>
-        </div>
-
-        <div className="bg-[#a11d1d]/5 rounded-xl p-2 md:p-6 border-4 border-[#a11d1d] shadow-2xl">
-          <div className="space-y-4">
-            {matches.map((match, idx) => (
-              <MatchCard key={idx} {...(match as any)} />
-            ))}
-          </div>
-        </div>
-      </main>
 
       <footer className="bg-white border-t border-gray-200 py-6 mt-auto text-center text-gray-400 text-sm">
         جميع الحقوق محفوظة © Ouskare TV
