@@ -6,20 +6,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export default function Home() {
   const oldLogo = PlaceHolderImages.find(img => img.id === "ouskare-logo");
 
-  const matches = [
-    { 
-      teamA: "اسبانيا", 
-      teamB: "الارجنتين ", 
-      scoreA: 0, 
-      scoreB: 0, 
-      time: "20:00", 
-      status: "live", 
-      channel: "beIN SPORTS MAX 1", 
-      commentator: "غير معروف", 
-      league: " النهائي ", 
-      href: "https://912acsss8af382.fabortvcdn.com/playerv5.php?match=4773219&key=9f39972b67d6ce22189507d008acwc26"   // غير بالرابط الحقيقي
-    },
-  ];
+  
 
   return (
     <div className="min-h-screen flex flex-col font-body bg-[#f0f0f2]">
