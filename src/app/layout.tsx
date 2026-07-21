@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://ouskaretv.vercel.app'),
 
   verification: {
-    google: 'VzK0Ce6V01Jr_8MvkE_i_rwtYftEtrnNdtl5KY1cIdQ',
+    google: 'Tbt6YmqemCF6U9b8Z5LujzdQpq6a0B6wvuxkUbcqPnw',
   },
 
   robots: {
@@ -80,7 +80,9 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-
+      
+<meta name="google-site-verification" content="Tbt6YmqemCF6U9b8Z5LujzdQpq6a0B6wvuxkUbcqPnw" />
+      
       <body className="font-body antialiased selection:bg-accent selection:text-accent-foreground">
         {children}
       </body>
