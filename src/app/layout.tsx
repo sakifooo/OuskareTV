@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'live stream football',
   ],
 
-  metadataBase: new URL('https://ouskaretv.vercel.app'),
+  metadataBase: new URL('https://kooratv.site/'),
 
   verification: {
     google: 'Tbt6YmqemCF6U9b8Z5LujzdQpq6a0B6wvuxkUbcqPnw',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: 'Ouskare TV - بث مباشر مباريات اليوم',
     description:
       'تابع مباريات كرة القدم اليوم بث مباشر بدون تقطيع مع نتائج فورية وأهم الدوريات العالمية والعربية.',
-    url: 'https://ouskaretv.vercel.app/',
+    url: 'https://kooratv.site/',
     siteName: 'Ouskare TV',
     locale: 'ar_MA',
     type: 'website',
